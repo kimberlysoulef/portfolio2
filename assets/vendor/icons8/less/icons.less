@@ -1,0 +1,23 @@
+// Icons
+// -------------------------
+
+.icons8-tela:before,
+.icons8-tela-2:before,
+.icons8-adobe-draw:before,
+[data-icons8]:before {
+  .icons8-font();
+}
+
+[data-icons8]:before {
+  content: attr(data-icons8);
+}
+
+.icons8-tela:before {
+  content: "@{icons8-var-tela}";
+}
+.icons8-tela-2:before {
+  content: "@{icons8-var-tela-2}";
+}
+.icons8-adobe-draw:before {
+  content: "@{icons8-var-adobe-draw}";
+}

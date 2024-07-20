@@ -1,0 +1,66 @@
+/*!
+ * Icon Font portfolio
+ * Made with love by Icons8 [ https://icons8.com/ ] using webfont [ https://github.com/itgalaxy/webfont ]
+ *
+ * Contacts:
+ *    [ https://icons8.com/contact ]
+ *
+ * Follow Icon8 on
+ *    Twitter [ https://twitter.com/icons_8 ]
+ *    Facebook [ https://www.facebook.com/Icons8 ]
+ *    Google+ [ https://plus.google.com/+Icons8 ]
+ *    GitHub [ https://github.com/icons8 ]
+ */
+
+@font-face {
+  font-family: "portfolio";
+  src: url("../fonts/portfolio.eot");
+  src: url("../fonts/portfolio.eot?#iefix") format("embedded-opentype"),
+  url("../fonts/portfolio.woff2") format("woff2"),
+  url("../fonts/portfolio.woff") format("woff"),
+  url("../fonts/portfolio.ttf") format("truetype"),
+  url("../fonts/portfolio.svg#font") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  @font-face {
+    font-family: "portfolio";
+    src: url("../fonts/portfolio.svg#portfolio") format("svg");
+  }
+}
+
+[data-icons8]:before {
+  content: attr(data-icons8);
+}
+
+.icons8-tela:before,
+.icons8-tela-2:before,
+.icons8-adobe-draw:before,
+.icons8,
+[data-icons8]:before {
+  display: inline-block;
+  font-family: "portfolio";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+}
+
+
+.icons8-tela:before {
+  content: "\f100";
+}
+.icons8-tela-2:before {
+  content: "\f101";
+}
+.icons8-adobe-draw:before {
+  content: "\f102";
+}

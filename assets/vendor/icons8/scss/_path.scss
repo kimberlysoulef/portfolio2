@@ -1,0 +1,21 @@
+// Font paths
+// -------------------------
+
+@font-face {
+  font-family: "portfolio";
+  src: url("../fonts/portfolio.eot");
+  src: url("../fonts/portfolio.eot?#iefix") format("embedded-opentype"),
+  url("../fonts/portfolio.woff2") format("woff2"),
+  url("../fonts/portfolio.woff") format("woff"),
+  url("../fonts/portfolio.ttf") format("truetype"),
+  url("../fonts/portfolio.svg#font") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "portfolio";
+    src: url("../fonts/portfolio.svg#portfolio") format("svg");
+  }
+}
